@@ -12,6 +12,64 @@ A comprehensive C++ console application for hotel reservation management with mu
 - **Colorized Interface**: Enhanced console experience with ANSI colors
 - **Secure Login**: Password masking and validation
 
+## Screenshots
+
+### Welcome Screen
+![Welcome Screen](project-screenshots/welcome_screen.png)
+*Initial welcome screen with project information and developer details*
+
+### Hotel Setup
+![Hotel Setup](project-screenshots/hotel_setup.png)
+*Hotel configuration screen for setting up name, floors, rooms, and pricing*
+
+### Super Admin Creation
+![Super Admin Setup](project-screenshots/super_admin_setup.png)
+*Super admin account creation with secure password input*
+
+### Login Screen
+![Login Screen](project-screenshots/login_screen.png)
+*Admin login interface with password masking*
+
+### Admin Panel
+![Admin Panel](project-screenshots/admin_panel.png)
+*Main admin dashboard with all management options*
+
+### Room Management
+![Room View](project-screenshots/room_view.png)
+*Room status display with color-coded availability (Green=Available, Red=Booked)*
+
+### Customer Registration
+![Customer Registration](project-screenshots/customer_registration.png)
+*Customer registration form with email and phone validation*
+
+### Room Booking
+![Room Booking](project-screenshots/room_booking.png)
+*Room booking interface with customer selection options*
+
+### Room Details
+![Room Details](project-screenshots/room_details.png)
+*Detailed room information and customer booking status*
+
+### Edit Room Price
+![Edit Room Price](project-screenshots/edit_room_price.png)
+*Room price modification interface*
+
+### Vacate Room
+![Vacate Room](project-screenshots/vacate_room.png)
+*Room vacancy management system*
+
+### Add New Admin
+![Add Admin](project-screenshots/add_admin.png)
+*Super admin adding new administrator accounts*
+
+### All Customers
+![All Customers](project-screenshots/all_customers.png)
+*Complete customer list with formatted display*
+
+### Logout
+![Logout](project-screenshots/logout.png)
+*Secure logout confirmation screen*
+
 ## Quick Start
 
 ### Prerequisites
@@ -58,6 +116,7 @@ HotelMaster Pro/
 │   ├── Room.cpp     # Room operations
 │   ├── Utils.cpp    # Helper functions
 │   └── main.cpp     # Application entry point
+├── project-screenshots/ # Application screenshots
 ├── build/           # Compiled executables
 ├── .clang-format    # Code formatting configuration
 ├── .gitignore       # Version control exclusions
